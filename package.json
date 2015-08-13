@@ -1,0 +1,25 @@
+{
+  "name": "pkgrun",
+  "version": "0.0.1",
+  "description": "Run multiple package.json scripts with one command.",
+  "main": "package-run.js",
+  "bin": {
+    "pkgrun": "./bin/package-run.js",
+    "package-run": "bin/package-run.js"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "script",
+    "run",
+    "glob",
+    "all"
+  ],
+  "author": "Thomas Reggi <thomas@reggi.com>",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "lodash": "^3.10.0",
+    "minimatch": "^2.0.10",
+    "minimist": "^1.1.2"
+  }
+}
