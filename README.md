@@ -36,7 +36,7 @@ Now you can just write:
 }
 ```
 
-The command `pkgrun 'soup*'` will go into your `package.json` file and pull all of the files starting with `soup` (in the order they are in) and execute them one by one.
+The command `pkgrun 'soup*'` will go into your `package.json` and pull all of the scripts starting with `soup` (in the order they are in) and execute them one by one.
 
 ## Glob Reminder
 
